@@ -1,0 +1,6 @@
+HDFS COMMANDS TO RUN:
+hdfs dfs -mkdir /pigproject
+hdfs dfs -put students.txt /pigproject
+RUN PIG SCRIPT:
+pig -x mapreduce pig_filter_script.pig
+
